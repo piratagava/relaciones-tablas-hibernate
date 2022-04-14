@@ -36,8 +36,11 @@ public class ManyToOne {
     sesion.save(celH);
     */
            
-    sesion.saveOrUpdate(nano);
-    sesion.saveOrUpdate(nay);
+    //sesion.saveOrUpdate(nano);
+    //sesion.saveOrUpdate(nay);
+    
+    Persona persona = sesion.get(Persona.class, 18);
+    persona.getTelefonos().forEach(h-> System.out.println(h.getNumero()));
     
     sesion.getTransaction().commit();
     sesion.close();

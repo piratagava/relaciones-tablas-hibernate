@@ -42,6 +42,9 @@
         <mapping class="com.springsimplespasos.hibernate.entidades.onetoone.Socio"/>
         <mapping class="com.springsimplespasos.hibernate.entidades.manytoone.Persona"/>
         <mapping class="com.springsimplespasos.hibernate.entidades.manytoone.Telefono"/>
+        <mapping class="com.springsimplespasos.hibernate.entidades.manytomany.Publicacion"/>
+        <mapping class="com.springsimplespasos.hibernate.entidades.manytomany.Usuario"/>
+        
 
 
 
